@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Stack, Typography, Button } from "@mui/material";
 
 const ExerciseCard = ({ exercise }) => {
-  console.log(exercise); // only appear when you serach something eg:back
+  // console.log(exercise); // only appear when you serach something eg:back
   return (
     <Link className="exercise-card" to={`/exercise/${exercise.id}`}>
       <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
